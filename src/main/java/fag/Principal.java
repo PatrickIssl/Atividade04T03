@@ -11,15 +11,15 @@ public class Principal {
 		
 		// Executar todas as questões
 		questao1_Scanner(scan);
-		questao2_Print();
-		questao3_For();
-		questao4_If(scan);
-		questao5_While(scan);
-		questao6_Metodos();
-		questao7_ScannerIf(scan);
-		questao8_ForPrint();
-		questao9_WhileScanner(scan);
-		questao10_MetodosFor();
+//		questao2_Print();
+//		questao3_For();
+//		questao4_If(scan);
+//		questao5_While(scan);
+//		questao6_Metodos();
+//		questao7_ScannerIf(scan);
+//		questao8_ForPrint();
+//		questao9_WhileScanner(scan);
+//		questao10_MetodosFor();
 		
 		scan.close();
 	}
@@ -31,7 +31,11 @@ public class Principal {
 	// e exiba uma mensagem de boas-vindas personalizada
 	// Exemplo: "Olá João! Você tem 20 anos. Seja bem-vindo(a)!"
 	public static void questao1_Scanner(Scanner scan) {
-		
+		System.out.println("Informe seu nome:");
+		String nome = scan.nextLine();
+		System.out.println("Informe sua idade:");
+		int idade = scan.nextInt();
+		System.out.printf("Olá %s! Você tem %d anos. Seja bem-vindo(a)!", nome,idade);
 	}
 	
 	// ========================================
