@@ -2,7 +2,7 @@ package main.java.fag;
 
 import java.util.Scanner;
 
-public class Principal  {
+public class Atividade {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
